@@ -1,47 +1,55 @@
-body{
+body {
     padding: 1px;
     background-color: #f1f1f1;
 }
-.box{
+
+.box {
     background-color: #fff;
     padding: 30px;
     margin: 40px 100px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
 }
-h2{
+
+h2 {
     font-size: 25px;
 }
-.inbox{
+
+.inbox {
     margin: 6px;
     padding: 7px;
     width: 200px;
     border: .1px solid black;
     border-radius: 10px;
 }
-button{
+
+button {
     margin: 20px;
     padding: 10px 40px;
     background-color: rgb(47, 191, 248);
     color: #fff;
     border: 0;
-    border-radius:20px;
+    border-radius: 20px;
     letter-spacing: .2ch;
 }
-.line{
+
+.line {
     display: flex;
     padding: 0 100px;
 }
-.line div{
+
+.line div {
     height: 1px;
     background-color: rgb(141, 141, 141);
     flex: 1;
     margin: 8px;
 }
-.line span{
+
+.line span {
     font-size: 15px;
     color: #5c5c5c;
 }
-a{
+
+a {
     text-decoration: none;
 }
