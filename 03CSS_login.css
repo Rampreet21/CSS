@@ -1,6 +1,6 @@
 body {
     padding: 1px;
-    background-color: #f1f1f1;
+    background-color: #fefefe;
 }
 
 .box {
@@ -13,20 +13,21 @@ body {
 
 h2 {
     font-size: 25px;
+    color: #01b814;
 }
 
 .inbox {
     margin: 6px;
     padding: 7px;
     width: 200px;
-    border: .1px solid rgba(3, 145, 210, 0.605);
+    border: .1px solid rgba(3, 210, 79, 0.605);
     border-radius: 10px;
 }
 
 .button {
     margin: 20px;
     padding: 10px 40px;
-    background-color: rgb(47, 191, 248);
+    background-color: rgb(0, 186, 12);
     color: #fff;
     border: 0;
     border-radius: 20px;
@@ -34,7 +35,7 @@ h2 {
     cursor: pointer;
 }
 input[type="button"]:hover{
-    background-color: #05b2dd;
+    background-color: #009a21;
 }
 .line {
     display: flex;
@@ -44,17 +45,24 @@ input[type="button"]:hover{
 
 .line div {
     height: 1px;
-    background-color: rgb(199, 197, 197);
+    background-color: rgb(208, 208, 208);
     flex: 1;
     margin: 8px;
 }
 
 .line span {
-    font-size: 15px;
-    color: #787777;
+    font-size: 13px;
+    color: #9f9f9f;
 }
 
 a {
-    color: rgb(0, 170, 255);
+    color: rgb(1, 180, 13);
     text-decoration: none;
+}
+p{
+    color: #5d5d5d;
+    font-size: 14px;
+    /* margin: 20px; */
+    padding-top: 10px;
+    padding-bottom: 0px;
 }
