@@ -5,6 +5,26 @@
     <title> CSS testing</title>
 
     <style>
+        img{
+            height: 30px;
+            width: 30px;
+            position: relative;
+            left: 300px;
+            top: 60px;
+            animation: one 2s 3;
+        }
+        @keyframes one{
+            from{
+                left: -40px;
+                top: 300px;
+            }
+            to{
+                left: 300px;
+                top: 60px;
+            }
+        }
+
+
         body {
             background: skyblue;
         }
@@ -46,7 +66,7 @@
     <section class="second class">
         this is class also attribute
     </section>
-
+    <img src="/beeg.gif" alt="error">
 </body>
 
 </html>

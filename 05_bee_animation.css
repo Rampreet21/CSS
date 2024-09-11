@@ -1,0 +1,109 @@
+
+body {
+    background-color: #fefefe;
+}
+
+
+img{
+    height: 40px;
+    width: 40px;
+    left: 210px;
+    bottom: 260px;
+    position: relative;
+    animation: first;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes first{
+    from{
+        bottom: 600px;
+        left: 0;
+    }
+    to{
+        left: 210px;
+        bottom: 260px;
+    }
+}
+
+
+
+
+.box {
+    background-color: #fff;
+    width: 300px;
+    padding: 30px;
+    margin: 80px 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #01af12;
+}
+
+.inbox {
+    margin: 6px;
+    padding: 7px;
+    width: 200px;
+    border: .1px solid rgba(0, 135, 50, 0.605);
+    border-radius: 10px;
+}
+
+.button {
+    margin: 20px;
+    padding: 10px 40px;
+    background-color: rgb(4, 170, 15);
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    letter-spacing: .2ch;
+    cursor: pointer;
+}
+input[type="button"]:hover{
+    background-color: #009a21;
+}
+input[placeholder="Enter Name"]:hover{
+    top: 0;
+    
+}
+.line {
+    display: flex;
+    padding: 0 20px;
+}
+
+.line div {
+    height: 0.1px;
+    background-color: rgb(208, 208, 208);
+    flex: 1;
+    margin: 8px;
+}
+
+.line span {
+    font-size: 13px;
+    color: #9f9f9f;
+}
+
+a {
+    color: rgb(1, 180, 13);
+    text-decoration: none;
+}
+p{
+    color: #5d5d5d;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.px{
+    position: absolute;
+    top: 92%;
+    right: 10px;
+}
+.px p{
+    font-size: 12px;
+}
+.px b{
+    font-size: 14px;
+}
+
