@@ -22,11 +22,17 @@ h2 {
 }
 
 .inbox {
+    background-color: transparent;
+    color: floralwhite;
     margin: 6px;
     padding: 7px;
     width: 200px;
+    outline: none;
     border: .1px solid rgba(255, 255, 255, 0.605);
     border-radius: 10px;
+}
+input::placeholder{
+    color: #ffff;
 }
 
 .button {
