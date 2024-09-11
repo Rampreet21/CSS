@@ -1,6 +1,6 @@
 
 body {
-    background: url(/bg2.jpg) no-repeat;
+    background: url(/bg.jpeg) no-repeat;
             background-position: center;
             background-size: 1920px 2000px;
 }
@@ -41,7 +41,7 @@ h2 {
     cursor: pointer;
 }
 input[type="button"]:hover{
-    background-color: #e487f9;
+    background-color: #8c9abd;
 }
 input[placeholder="Enter Name"]:hover{
     top: 0;
@@ -54,14 +54,14 @@ input[placeholder="Enter Name"]:hover{
 
 .line div {
     height: 0.1px;
-    background-color: rgb(216, 175, 224);
+    background-color: rgb(232, 232, 232);
     flex: 1;
     margin: 8px;
 }
 
 .line span {
     font-size: 13px;
-    color: #dcdcdc;
+    color: #f1f1f1;
 }
 
 a {
