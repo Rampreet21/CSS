@@ -3,6 +3,7 @@
 
 <head>
     <title> CSS testing</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <style>
         img{
@@ -11,7 +12,7 @@
             position: relative;
             left: 300px;
             top: 60px;
-            animation: one 2s 3;
+            animation: one 6s 3;
         }
         @keyframes one{
             from{
@@ -26,7 +27,9 @@
 
 
         body {
-            background: skyblue;
+            background: url(/bg2.jpg) no-repeat;
+            background-position: center;
+            background-size: 1920px 2000px;
         }
 
         #first-id {
@@ -51,6 +54,7 @@
 </head>
 
 <body>
+    <i class='bx bx-ghost'></i>
     <div id="first-id">
         This is id attribute
     </div>

@@ -1,43 +1,47 @@
 
 body {
-    background-color: #fefefe;
+    background: url(/bg2.jpg) no-repeat;
+            background-position: center;
+            background-size: 1920px 2000px;
 }
 
 .box {
-    background-color: #fff;
+    background: transparent;
+    backdrop-filter: blur(20px);
     width: 300px;
     padding: 30px;
     margin: 80px 100px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 30px;
 }
 
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
-    color: #01af12;
+    color: #ffffff;
 }
 
 .inbox {
     margin: 6px;
     padding: 7px;
     width: 200px;
-    border: .1px solid rgba(0, 135, 50, 0.605);
+    border: .1px solid rgba(255, 255, 255, 0.605);
     border-radius: 10px;
 }
 
 .button {
     margin: 20px;
     padding: 10px 40px;
-    background-color: rgb(4, 170, 15);
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-weight: 40px;
     border: 0;
     border-radius: 20px;
     letter-spacing: .2ch;
     cursor: pointer;
 }
 input[type="button"]:hover{
-    background-color: #009a21;
+    background-color: #e487f9;
 }
 input[placeholder="Enter Name"]:hover{
     top: 0;
@@ -50,22 +54,25 @@ input[placeholder="Enter Name"]:hover{
 
 .line div {
     height: 0.1px;
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(216, 175, 224);
     flex: 1;
     margin: 8px;
 }
 
 .line span {
     font-size: 13px;
-    color: #9f9f9f;
+    color: #dcdcdc;
 }
 
 a {
-    color: rgb(1, 180, 13);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 p{
-    color: #5d5d5d;
+    color: #e7e7e7;
     font-size: 14px;
     padding-top: 10px;
     padding-bottom: 0px;
