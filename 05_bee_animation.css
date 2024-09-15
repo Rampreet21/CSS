@@ -12,16 +12,28 @@ img{
     position: relative;
     animation: first;
     animation-duration: 5s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 5;
 }
 @keyframes first{
+    30%{
+        bottom: 500px;
+        left: 100;
+    }
+    50%{
+        bottom: 400px;
+        left: 140;
+    }
+    70%{
+        bottom: 300px;
+        left: 190;
+    }
     from{
         bottom: 600px;
         left: 0;
     }
     to{
-        left: 210px;
         bottom: 260px;
+        left: 210px;
     }
 }
 
@@ -95,15 +107,15 @@ p{
     padding-top: 10px;
     padding-bottom: 0px;
 }
-.px{
+.md{
     position: absolute;
     top: 92%;
     right: 10px;
 }
-.px p{
+.md p{
     font-size: 12px;
 }
-.px b{
+.md b{
     font-size: 14px;
 }
 
