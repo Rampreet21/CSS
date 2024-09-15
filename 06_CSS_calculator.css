@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 body{
+    background: linear-gradient(to bottom, #0c0b0ef3, #04040f) no-repeat;
     display: flex;
+    background-attachment: fixed;
     justify-content: center;
     align-items: center;
     min-height: 90vh;
@@ -37,6 +39,20 @@ button{
     padding: 0px;
     margin: 3px;
     border-radius: 50%;
+    box-shadow: -3px -3px 5px #c3c3c32b;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #787878;
+}
+button:active{
+    background-color: #9a9a9a;
+}
+.opra:hover{
+    background-color: #f6b055;
+}
+.opra:active{
+    background-color: #f9c888;
 }
 .btn{
     width: 100px;
