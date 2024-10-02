@@ -10,7 +10,8 @@ body {
     backdrop-filter: blur(20px);
     width: 300px;
     padding: 30px;
-    margin: 80px 100px;
+    margin: auto;
+    margin-top: 80px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 30px;
 }
