@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url(/wallpaper.jpg) no-repeat;
+    background: url(img2/wallpaper.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
