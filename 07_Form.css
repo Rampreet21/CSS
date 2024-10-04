@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: skyblue;
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.437)
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inline label{
+    text-align: left;
+    flex: 10%;
+}
+input.inwi{
+    height: 23px;
+}
+input{
+    border: none;
+    border-radius: 5px;
+}
+select{
+    width: 100%;
+}
+.inline .radio, input{
+    flex: 50%;
+    margin-top: 10px;
+} 
+.inline  .select{
+    flex: 50%;
+} 
+.btn{
+    display: flex;
+    justify-content: center;
+}
+select{
+    border: none;
+    height: 23px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.btn button{
+    width: 100%;
+    height: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.radio{
+    display: flex;
+    justify-content: space-around;
+}
