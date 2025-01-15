@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+    <style>
+        body {
+            padding: 1px;
+            background-color: #fefefe;
+        }
+
+        .box {
+            background-color: #fff;
+            width: 350px;
+            padding: 30px;
+            margin: auto;
+            margin-top: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 30px;
+        }
+
+        h2 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 25px;
+            color: rgb(10, 164, 253);
+            text-shadow: 1px 1px 0px rgb(180, 209, 248);
+        }
+
+        .inbox {
+            margin: 6px;
+            padding: 7px;
+            width: 200px;
+            border: .1px solid rgba(3, 145, 210, 0.605);
+            border-radius: 10px;
+        }
+
+        .button {
+            margin: 20px;
+            padding: 10px 40px;
+            background-color: rgb(47, 191, 248);
+            color: #fff;
+            border: 0;
+            border-radius: 20px;
+            letter-spacing: .2ch;
+            cursor: pointer;
+        }
+
+        input[type="button"]:hover {
+            background-color: #05b2dd;
+        }
+
+        .line {
+            display: flex;
+            padding: 0 10px;
+            width: 300px;
+        }
+
+        .line div {
+            height: 1px;
+            background-color: rgb(209, 209, 209);
+            flex: 1;
+            margin: 8px;
+        }
+
+        .line span {
+            font-size: 13px;
+            color: #c0bebe;
+        }
+
+        a {
+            color: rgb(0, 170, 255);
+            text-decoration: none;
+        }
+
+        p {
+            color: rgb(107, 107, 107);
+            font-size: 14px;
+        }
+
+        .px {
+            position: absolute;
+            top: 92%;
+            right: 10px;
+        }
+
+        .px p {
+            font-size: 12px;
+        }
+
+        .px b {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="box">
+            <h2>Facebook</h2>
+            <form id="signupForm">
+                <input class="inbox" type="text" id="username" placeholder="Username" required><br>
+                <input class="inbox" type="email" placeholder="Email" required><br>
+                <input class="inbox" type="password" placeholder="Password" required><br>
+                <input class="inbox" type="password" placeholder="Confirm Password" required><br>
+                <input type="button" value="SIGN UP" class="button" onclick="signUp()">
+            </form>
+            <div class="line">
+                <div></div>
+                <span>OR</span>
+                <div></div>
+            </div>
+            <p>Have an account?<a href="/ankit project/login.html"> Login</a></p>
+        </div>
+    </center>
+    <div class="px">
+        <p> MADE BY <b>ANKIT</b></p>
+    </div>
+
+    <script>
+        function signUp() {
+            const username = document.getElementById("username").value;
+            if (username.trim() !== "") {
+                // Save username to localStorage
+                localStorage.setItem("username", username);
+                // Redirect to home page
+                window.location.href = "home.html";
+            } else {
+                alert("Please enter your name.");
+            }
+        }
+    </script>
+</body>
+
+</html>
